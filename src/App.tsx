@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import { MainContainer } from './styles/GlobalStyles';
+import Display from './componets/display/Display';
+import { Options } from './componets/options/Options';
+import Slider from './componets/UI/slider/Slider';
+import CheckBox from './componets/UI/checkBox/CheckBox';
+import StrengthMeter from './componets/strengthMeter/StrengthMeter';
+import GenerateButton from './componets/UI/button/GenerateButton';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainContainer>
+      <h1>Password Generator</h1>
+      <Display />
+      <Options>
+        <Slider />
+        <CheckBox text="Include Uppercase Letters" tag="uppLetters" />
+        <CheckBox text="Include Lowercase Letters" tag="lowLetters" />
+        <CheckBox text="Include Numbers" tag="numbers" />
+        <CheckBox text="Include Symbols" tag="symbols" />
+        <StrengthMeter />
+        <GenerateButton />
+      </Options>
+    </MainContainer>
   );
 }
 
