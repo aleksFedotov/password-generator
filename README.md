@@ -27,5 +27,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aleksFedotov/password-generator)
-- Live Site URL: [Add live site URL here](https://aleksfedotov.github.io/password-generator/)
+- Solution URL: [git](https://github.com/aleksFedotov/password-generator)
+- Live Site URL: [site](https://aleksfedotov.github.io/password-generator/)
