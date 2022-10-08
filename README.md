@@ -9,8 +9,6 @@ This is a solution to the [Password generator app challenge on Frontend Mentor](
   - [Screenshot](#screenshot)
   - [Links](#links)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -25,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
+![](./preview.png)
 
 ### Links
 
